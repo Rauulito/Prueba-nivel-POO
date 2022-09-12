@@ -1,9 +1,10 @@
 from vehiculo import vehiculo
 
+#creamos la clase bicicleta
 class bicicleta(vehiculo):
     def __init__(self, color, ruedas, tipo):
         vehiculo.__init__(self, color, ruedas)
-        self.carga = tipo
+        self.tipo = tipo
 
 
     def __str__(self):

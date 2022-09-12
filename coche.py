@@ -1,4 +1,5 @@
 from vehiculo import vehiculo
+#creamos la clase coche
 class coche(vehiculo):
     def __init__(self, color, ruedas, velocidad, cilindrada):
         vehiculo.__init__(self, color, ruedas)
