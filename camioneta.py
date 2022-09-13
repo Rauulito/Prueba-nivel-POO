@@ -8,7 +8,7 @@ class Camioneta(Coche):
         self.carga=carga
 
     def __str__(self): #preparamos el formato de salida
-        return Coche.__str__(self) + " {} kg".format(self.carga)
+        return Coche.__str__(self) + ", {} kg".format(self.carga)
 
 #prueba
 if __name__== '__main__':

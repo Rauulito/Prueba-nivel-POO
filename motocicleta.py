@@ -7,7 +7,7 @@ class Motocicleta(Bicicleta):
         self.cilindrada = cilindrada
 
     def __str__(self): #preparamos el formato de salida
-        return Bicicleta.__str__(self) + " {} km/h, {}cc".format(self.velocidad, self.cilindrada)
+        return Bicicleta.__str__(self) + ", {} km/h, {}cc".format(self.velocidad, self.cilindrada)
 
 #prueba
 if __name__== '__main__':
