@@ -1,15 +1,16 @@
-from Vehiculo import vehiculo
+from Vehiculo import Vehiculo
 
 #creamos la clase bicicleta
-class bicicleta(vehiculo):
-    def __init__(self, color, ruedas, tipo):
-        vehiculo.__init__(self, color, ruedas)
+class Bicicleta(Vehiculo):
+    def __init__(self, color, ruedas, tipo):  #Se heredan los atributos de la clase vehiculo y definimos los adicionales de la clase bicicleta
+        Vehiculo.__init__(self, color, ruedas)
         self.tipo = tipo
 
 
-    def __str__(self):
-        return vehiculo.__str__(self) + ", {} ".format(self.tipo)
+    def __str__(self): #preparamos el formato de salida
+        return Vehiculo.__str__(self) + ", {} ".format(self.tipo)
 
 #prueba
-c = bicicleta("verde", 4, "urbana")
-print(c)
+if __name__== '__main__':
+    c = Bicicleta("verde", 2, "urbana")
+    print(type(c).__name__,":",c)
