@@ -1,4 +1,4 @@
-from vehiculo import vehiculo
+from Vehiculo import vehiculo
 
 #creamos la clase bicicleta
 class bicicleta(vehiculo):

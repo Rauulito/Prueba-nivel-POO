@@ -1,4 +1,4 @@
-from vehiculo import vehiculo
+from Vehiculo import vehiculo
 class motocicleta(vehiculo):
     def __init__(self, color, ruedas,tipo, velocidad, cilindrada):
         vehiculo.__init__(self, color, ruedas)
