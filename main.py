@@ -32,10 +32,10 @@ if __name__== '__main__':
     Vehiculos.append(bi)
     Vehiculos.append(mo)
 
-    #llamamos a la funcion catalogar sin el parametro opcional
+    #llamamos a la funcion catalogar sin el parametro opcional(imprimira todos los vehiculos)
     catalogar(Vehiculos)
 
-    #llamamos a la funcion catalogar con el parametro opcional
+    #llamamos a la funcion catalogar con el parametro opcional(imprimira los vehiculos con ese numero de ruedas)
     catalogar(Vehiculos, 0)
     catalogar(Vehiculos, 2)
     catalogar(Vehiculos, 4)
